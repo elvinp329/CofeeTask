@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.onetop {
+    text-align: center;
+    width: 100%;
+}
+
+.onetop h1 {
+    font-size: 40px;
+    font-family: Marcellus, sans-serif;
+    font-weight: 100;
+    padding-top: 5rem;
+}
+
+.onetop img {
+    margin-top: 30px;
+}
+
+.onetop p {
+    margin-top: 40px;
+    font-size: 30px;
+    margin: auto;
+    width: 50%;
+    font-weight: 300;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8rem;
+    padding: 4rem;
+}
+
+.cont .box {
+    width: 32%;
+}
+
+.boximg img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.boxtext a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext h5 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.boxtext p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #656565;
+    transition: 0.9s;
+}
+
+.boxtext {
+    position: relative;
+}
+
+.boxtext a h5:hover {
+    color: #ad9356;
+}
+
+.boxtext .span {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.boxtext .span:hover {
+    padding-left: 30px;
+    color: #656565;
+}
+
+.two {
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh;
+    background-attachment: fixed;
+}
+
+.twotop {
+    text-align: center;
+    padding: 5rem 0rem;
+}
+
+.twotop h2 {
+    font-size: 43px;
+    color: #262626;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.twotop p {
+    margin: auto;
+    width: 43%;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+.conttwo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.conttwo .boxtwo {
+    width: 33%;
+    text-align: center;
+}
+
+.twoadd {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.boxtwo.twoadd a {
+    z-index: 1;
+    color: #fff;
+    transition: 0.5;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.abottom{
+    text-decoration: none;
+    padding: 20px 20px;
+    background-color: #ad9356
+
+    
+}
+
+.twoimg:hover .twoadd {
+    opacity: 1;
+}
+
+.boxtwo img {
+    width: 100%;
+}
+
+.twoimg {
+    position: relative;
+}
+
+.boxtwo h4 {
+    letter-spacing: 0.2rem;
+    padding-top: 5px;
+    font-weight: 200;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.boxtwo .twoimg img {
+    transition: 0.7;
+}
+
+.boxtwo .twoimg img:hover {
+    opacity: 0.2;
+}
+
+.twotext h4:hover {
+    color: #ad9356;
+    cursor: pointer;
+}
